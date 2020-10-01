@@ -34,3 +34,13 @@
   width: 100px;
   padding-left: 20px;
 }
+
+@media only screen and (max-width: 600px) {
+  .center h1 {
+    font-size: 25px;
+  }
+
+  html {
+    overflow: hidden !important;
+  }
+}
